@@ -1,4 +1,5 @@
 button{
   border-style: none;
   border-color: lightgrey;
+  cursor: pointer;
 }

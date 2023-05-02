@@ -92,3 +92,15 @@ JS код поставляется в виде одного файла `player.j
   <div class="js-progress-slider" style="background-color: red;">Прогресс</div>
 </div>
 ```
+
+## Подключение [livereload](https://pypi.org/project/livereload/)
+ - Установите библиотеку в виртуальное окружение
+    ```commandline
+    pip install livereload
+    ```
+ - В отдельном окне терминала активируйте виртуальное окружение и выполните
+   ```commandline
+   livereload
+   ```
+   Библиотека сканирует текущий, в данном случае, каталог на предмет файла `index.html` и изменений в нём.
+   Сайт будет доступен для просмотра по адресу [http://127.0.0.1:35729/](http://127.0.0.1:35729/)

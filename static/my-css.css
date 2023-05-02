@@ -3,3 +3,7 @@ button{
   border-color: lightgrey;
   cursor: pointer;
 }
+
+div.button-panel{
+  background-color: black
+}

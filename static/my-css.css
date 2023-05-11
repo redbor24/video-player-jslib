@@ -1,6 +1,6 @@
 .player{
   width: 800px;
-  height: 500px;
+  height: 485px;
   box-shadow: 10px 10px 15px rgba(0,0,0,0.5);
   display: flex;
   flex-direction: column;
@@ -18,4 +18,6 @@
   border-style: none;
   cursor: pointer;
   font-size: inherit;
+  width: 40px;
+  margin: 2px auto;
 }

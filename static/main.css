@@ -8,14 +8,14 @@
   flex-direction: column;
 }
 .video-container{
+  max-width: 100%;
   display: flex;
   flex-grow: 1;
-  max-width: 100%;
 }
 .player-control-panel{
+  padding: 5px;
   display: flex;
   justify-content: flex-start;
-  padding: 5px;
 }
 .player-button{
   color: white;
@@ -24,7 +24,6 @@
   cursor: pointer;
   font-size: inherit;
   width: 40px;
-  margin: 0px;
 }
 .player-progress{
   flex-grow: 1;

@@ -1,16 +1,21 @@
 .player{
-  width: 800px;
-  height: 485px;
+  background-color: black;
+  max-width: 850px;
+  height: 518px;
   box-shadow: 10px 10px 15px rgba(0,0,0,0.5);
+  font-size: x-large;
   display: flex;
   flex-direction: column;
-  font-size: x-large;
 }
 .video-container{
+  display: flex;
   flex-grow: 1;
+  max-width: 100%;
 }
 .player-control-panel{
-  background-color: black;
+  display: flex;
+  justify-content: flex-start;
+  padding: 5px;
 }
 .player-button{
   color: white;
@@ -19,5 +24,8 @@
   cursor: pointer;
   font-size: inherit;
   width: 40px;
-  margin: 2px auto;
+  margin: 0px;
+}
+.player-progress{
+  flex-grow: 1;
 }

@@ -106,3 +106,4 @@ JS код поставляется в виде одного файла `player.j
    Сайт будет доступен для просмотра по адресу [http://127.0.0.1:35729/](http://127.0.0.1:35729/)
 
 ## Сайт можно посмотреть [здесь](https://redbor24.github.io/video-player-jslib/)
+![VideoPlayerScreenShot.PNG](screenshots%2FVideoPlayerScreenShot.PNG)

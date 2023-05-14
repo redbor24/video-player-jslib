@@ -1,7 +1,7 @@
 .player{
   background-color: black;
-  max-width: 850px;
-  height: 518px;
+  max-width: 800px;
+  height: 600px;
   box-shadow: 10px 10px 15px rgba(0,0,0,0.5);
   font-size: x-large;
   display: flex;

@@ -14,7 +14,7 @@
     padding: 9px 0px;
     display: flex;
     justify-content: flex-start;
-    align-items: center;
+    align-items: stretch;
     margin-top: 0px;
 }
 .player-button{
@@ -26,14 +26,16 @@
     width: 36px;
     margin-right: 1px;
 }
-.player-progress-panel{
+.player-progress-panel {
     flex-grow: 1;
     display: flex;
     justify-content: flex-start;
+    align-items: center;
     color: white;
     font-family: 'Roboto Flex', sans-serif;
     font-size: 16px;
 }
+
 .player-progress{
   flex-grow: 1;
   display: flex;

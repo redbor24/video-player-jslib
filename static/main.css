@@ -3,25 +3,27 @@
   max-width: 800px;
   height: 600px;
   box-shadow: 10px 10px 15px rgba(0,0,0,0.5);
-  font-size: x-large;
+  font-size: large;
   display: flex;
   flex-direction: column;
 }
 .video-container{
   flex-grow: 1;
 }
-.player-control-panel{
-  padding: 5px;
-  display: flex;
-  justify-content: flex-start;
+.player-control-panel {
+    padding: 9px 0px;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 0px;
 }
-.player-button{
-  color: white;
-  background-color: transparent;
-  border-style: none;
-  cursor: pointer;
-  font-size: inherit;
-  width: 40px;
+.player-button {
+    color: white;
+    background-color: transparent;
+    border-style: none;
+    cursor: pointer;
+    font-size: 20px;
+    width: 36px;
+    margin-right: 1px;
 }
 .player-progress{
   flex-grow: 1;

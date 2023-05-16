@@ -6,6 +6,11 @@
   <link rel="stylesheet" href="static/font-awesome.min.css">
   <link rel="stylesheet" href="static/main.css">
   <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex&family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#ffffff">
 </head>
@@ -25,7 +30,11 @@
       <button class="js-volume-button player-button" aria-hidden="true">
         <i class="fa fa-volume-off" aria-hidden="true"></i>
       </button>
-      <div class="player-progress"></div>
+      <div class="player-progress">
+        <div class="js-current-time"></div>
+        <div class="player-scroller"></div>
+        <div class="js-duration"></div>
+      </div>
       <button class="js-fullscreen-button player-button" aria-hidden="true">
         <i class="fa fa-arrows-alt" aria-hidden="true"></i>
       </button>

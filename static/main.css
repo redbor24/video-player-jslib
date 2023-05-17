@@ -1,11 +1,11 @@
-.player{
-  background-color: black;
-  max-width: 800px;
-  height: 600px;
-  box-shadow: 10px 10px 15px rgba(0,0,0,0.5);
-  font-size: large;
-  display: flex;
-  flex-direction: column;
+.player {
+    background-color: black;
+    max-width: 800px;
+    height: 600px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.9);
+    font-size: large;
+    display: flex;
+    flex-direction: column;
 }
 .video-container{
   flex-grow: 1;
